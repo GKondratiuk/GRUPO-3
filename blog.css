@@ -1,62 +1,96 @@
-* {margin: 0;
-padding: 0;
-}
+* {
+   padding: 0;
+   margin: 0;
 
-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 
 }
-
 
 header {
-    padding: 10px;
-    background-color: rgb(43, 43, 141);
-    padding-bottom: 20px;
-    text-align: center;
+    background-color: steelblue;
+    height: 12vh;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header h1 {
+    font-family: sans-serif;
     color: aliceblue;
-
+    font-size: 30px;
+    padding: 4px 8px;
 }
 
-nav {
-    text-align: center;
-    padding: 10px;
-    background-color: grey;
+nav { 
+    background-color: rgb(21, 21, 103);
+    color: white;
+    font-family: sans-serif;
+    text-align: right;
+    height: 15px;
     margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+
 
 }
 
-nav UL {
-
-    margin: 10PX;
+.banner {
+    float: right;
+    background-color: grey;
+    height: 200px ;
+    width: 170px ;
+    margin-right: 150px;
     
-}
-
-nav ul li {
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-    
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: black
-}
-
-nav ul li :hover {
-    background-color: rgb(100, 100, 100);
-    padding: 4px;
-    border: 2px solid black;
-
 }
 
 section {
-    background-color: antiquewhite;
-    border: 4px solid black;
-    margin: 40px;
-    padding: 200px
+    display: flex;
+    flex-wrap: wrap;
+    border: 20px solid gray;
+    padding-top: 20px;
+    background-color: aliceblue;
+    margin-left: 150px;
+    margin-right: 330px;
+    height: 550px;
 
+}
+
+article {
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 40%;
+}
+
+
+
+
+
+.destacado {
+    background-color: aliceblue;
+    
+    border-bottom: 8px solid gray;
+    
+}
+
+
+.destacado h1 {
+color: rgb(0, 0, 0);
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+.destacado p {
+    margin-top: 15px;
+
+}
+
+
+
+footer {
+text-align: center;
+background-color: rgb(117, 181, 255);
+margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 13px;
 }
